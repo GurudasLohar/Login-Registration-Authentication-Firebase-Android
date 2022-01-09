@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/blur">
+
+    <TextView
+        android:text="Log In"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtSignInEmail"
+        android:textSize="10dp"
+        android:hint="Enter Email address"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtSignInPassword"
+        android:textSize="10dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:textSize="10dp"
+        android:text="Log In"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="#ECBDCB"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:text="New User? Sign Up"
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        android:textSize="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/progressSignIn"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
